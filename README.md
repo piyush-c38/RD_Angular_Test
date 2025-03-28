@@ -1,6 +1,7 @@
 # People Management Application
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
+This is a test Angular project file to facilitate the CURD operation of NodeJS.
 
 ## Development server
 

@@ -1,0 +1,22 @@
+<div class="container">
+    <h2>Create Person</h2>
+    <form (submit)="createPerson()">
+      <label>Name :</label>
+      <input type="text" [(ngModel)]="person.name" name="name" required>
+  
+      <label>Age :</label>
+      <input type="number" [(ngModel)]="person.age" name="age" required>
+  
+      <label>Gender :</label>
+      <select [(ngModel)]="person.gender" name="gender" required>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+  
+      <label>Mobile Number :</label>
+      <input type="text" [(ngModel)]="person.mobileNumber" name="mobileNumber" required>
+  
+      <button type="submit">Create</button>
+    </form>
+  </div>
